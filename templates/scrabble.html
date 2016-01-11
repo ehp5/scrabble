@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="static/styles/scrabble.css" />
+    <script type="text/javascript" language="Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="static/js/scrabble.js" language="Javascript" type="text/javascript"></script>
+        
+    <title> </title>
+</head>
+<body>
+    <div id='background'>
+        
+        
+<table class="letter_table">
+    <col width="10%" />
+    <col width="10%" />
+    <col width="10%" />
+    <col width="10%" />
+    <col width="10%" />
+    <col width="10%" />
+  <tr>
+    <td id="letter0">{{ q.letter0 }}</td>
+    <td id="letter1">{{ q.letter1 }}</td>
+    <td id="letter2">{{ q.letter2 }}</td>
+    <td id="letter3">{{ q.letter3 }}</td>
+    <td id="letter4">{{ q.letter4 }}</td>
+    <td id="letter5">{{ q.letter5 }}</td>
+  </tr>
+</table>
+
+<form method='POST' enctype='multipart/form-data' action='/hello_words' id="contract-input-box">
+    <input type="text" autocomplete="off" autofocus="autofocus" name="word" id="contract-input"><input type="submit" value="Submit" id=submit>
+</form>
+
+
+<div id=output>You've found: <span id=redtext> </span> .</div>
+        
+    </div>
+</body>
+</html>

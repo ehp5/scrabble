@@ -26,12 +26,12 @@ q = session.query(LetterBank)[currentLetterBank] #get the current letterbank, ba
 
 @app.route('/')
 @app.route('/login')
-def Login():
+def HelloWorld():
     return render_template('login.html')
 
 
 @app.route('/hello')
-def WordPage():
+def HelloWorld():
     return render_template('scrabble.html', q=q)
 
 
