@@ -134,7 +134,7 @@ letterbanks = [letters0, letters1, letters2, letters3]
 
 #enter users
 
-for i in range(4):
+for i in range(4): #range upto number of letter banks. user is u+unique
     user1 = Subject(subject_name = 'u'+str(i), letter_bank = letterbanks[i])
     session.add(user1)
     session.commit()

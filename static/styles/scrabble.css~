@@ -1,6 +1,6 @@
 @font-face {
 font-family: Inconsolata;
-src: url(Inconsolata.otf);
+src: url(/static/fonts/Inconsolata.otf);
 }
 
 @font-face {
@@ -92,4 +92,14 @@ td {
 
 .redtext{
     color: rgb(242,76,67);
+}
+
+#entertextprompt{
+    width: 70%;
+    height: 15%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+    position: fixed;
+    font-size: 40%;
 }

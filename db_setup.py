@@ -30,6 +30,7 @@ class FoundWords(Base):
 
     id = Column(Integer, primary_key=True)
     word = Column(String(6), nullable=False)
+    subject = Column(String(10))
     #words = Column(String(250), nullable=False)
 
 class WordBank(Base):

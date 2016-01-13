@@ -93,3 +93,22 @@ td {
 .redtext{
     color: rgb(242,76,67);
 }
+
+#entertextprompt{
+    width: 70%;
+    height: 15%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+    position: fixed;
+    font-size: 40%;
+}
+
+
+#subject_id_box{
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    font-size: 20%;
+    text-align: left;
+}
