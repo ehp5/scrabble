@@ -1,0 +1,105 @@
+@font-face {
+font-family: Inconsolata;
+src: url(/static/fonts/Inconsolata.otf);
+}
+
+@font-face {
+font-family: Adelle;
+src: url(adelle_regular-webfont.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inconsolata;
+}
+
+
+#background{
+    background-color: rgb(132,188,232);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+
+.letter_table{
+    width: 70%;
+    height: 15%;
+    text-align: center;
+    top: 15%;
+    left: 15%;
+    position: fixed;
+    text-transform: capitalize;
+    
+}
+
+td {
+    height: 100%;
+    vertical-align: center;
+    border: 2px gray solid;
+}
+
+#contract-input{
+    width: 70%;
+    height: 5%;
+    text-align: center;
+    top: 35%;
+    left: 15%;
+    position: fixed;
+    text-transform: uppercase;
+    border: none;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 50%
+}
+
+#contract-input:focus{
+    outline: none;
+}
+
+
+
+.highlight{
+    background-color: rgb(242,76,67);
+}
+
+
+
+#submit{
+    color:rgb(132,188,232);
+    position: fixed;
+    top: 35%;
+    right: 15%;
+    height: 5%;
+    width: 10%;
+    background-color: rgb(242,76,67);
+    border: none;
+    font-size: 40%;
+    border-left: rgb(132,188,232) solid 3px;
+    cursor: pointer;
+}
+
+
+#output{
+    position: fixed;
+    top: 45%;
+    left: 15%;
+    font-size: 30%;
+    width: 70%;
+}
+
+.redtext{
+    color: rgb(242,76,67);
+}
+
+#entertextprompt{
+    width: 70%;
+    height: 15%;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+    position: fixed;
+    font-size: 40%;
+}

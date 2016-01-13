@@ -90,7 +90,7 @@ def WordPage():
                 session.commit()
         
         fw = [] 
-        qfw = session.query(FoundWords).filter(FoundWords.subject == subject_id).all() #outputs all current found words
+        qfw = session.query(FoundWords).filter(subject == subject_id).all() #outputs all current found words
         
         for item in qfw:
             fw.append(item.word.upper())
